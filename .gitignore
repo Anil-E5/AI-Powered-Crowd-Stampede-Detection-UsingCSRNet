@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+crowd_env/
+venv/
+ENV/
+env/
+
+# Model weights and large files
+*.pth
+*.pt
+*.onnx
+*.h5
+*.pb
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+
+# Dataset directories
+crowd_dataset/
+dataset/
+crowd_img.zip
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.cache
+videos/
+weights/
+
+# Logs
+*.log
